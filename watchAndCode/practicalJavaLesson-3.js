@@ -1,55 +1,34 @@
-makeSandwichWith ______
-    Get one slice of bread.
-    Add ______.
-    Put a slice of bread on top
-    
-function makeSandwichWith(filling) {
-    Get one slice of bread;
-    Add filling;
-    Put a slice of bread on top;
-}
-
-makeSandwichWith _ham_
-makeSandwichWith('ham')
-
-function sayHiTo(person){
-    console.log("hi", person);
-}
-
-sayHiTo('Andres')
-
-~~~~~~~~~~~~~~~~~~~~~~~~
-
 var todos = ['item 1', 'item 2', 'item 3']
 
+//It should have a function to display todos.
 function displayTodos() {
     console.log('My todos:', todos);
 }
 
+//It should have a function to add todos.
 function addTodo(todo){
     todos.push(todo);
     displayTodos();
 }
 
-addTodo()
-
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
+//It should have a function to chance todos.
 function changeTodo(position, newValue){
     todos[position] = newValue;
     displayTodos();
 }
 
-changeTodo()
-
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
+//it should have a function to delete todos.
 function deleteTodo(position) {
     todos.splice(position, 1);
     displayTodos();
 }
 
-deleteTodo()
+var myName = "Andres";
+ 
+function sayName(){
+    var secret = 'watchandcode';
+    console.log(myName);
+}
 
 Objective: Take inputs from a user to create a strock onject.
 -Ticker, name, price, change, marketCap
